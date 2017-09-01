@@ -104,7 +104,7 @@ public class NaturalSelection {
         int countOfGenerations = 0;
         while (true) {
             countOfGenerations += 1;
-            if (countOfGenerations == 10) {
+            if (countOfGenerations == 20) {
                 Monkeys human = new Monkeys("Humanity");
                 human.doTheEvolution();
                 break;
@@ -231,10 +231,10 @@ public class NaturalSelection {
         for (int i = 0; i < generation.size(); i++){
             double possibility = 0.45;
             for (int z = 0; z < generation.get(i)[2]; z++){
-                possibility -= 0.025;
+                possibility *= 0.95;
             }
             for (int x = 0; x < generation.get(i)[1]; x++){
-                possibility += 0.025;
+                possibility *= 1.05;
             }
             int resultPossibility = (int)(Math.random() + possibility);
             if (resultPossibility == 1) {

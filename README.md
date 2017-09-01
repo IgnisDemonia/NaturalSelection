@@ -1,0 +1,2 @@
+# TypicalRepositorium
+IndianCode

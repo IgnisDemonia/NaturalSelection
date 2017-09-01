@@ -1,2 +1,2 @@
 # TypicalRepositorium
-IndianCode
+Оба файла - части одного проекта.

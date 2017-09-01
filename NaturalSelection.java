@@ -199,7 +199,7 @@ public class NaturalSelection {
 
     static int[]  makeNextGeneration (int[] firstIndividual, int[] secondIndividual) {
         int resultFeature = 0;
-        int[] child = {0, 0, 0, 0, 0, 0, 0};
+        int[] child = {0, secondIndividual[1] + firstIndividual[1], secondIndividual[2] + firstIndividual[2], 0, 0, 0, 0};
         for (int i = 3; i < 7; i++) {
             resultFeature = definitionOfDominantFeature(firstIndividual[i], secondIndividual[i]);
             child[i] = resultFeature;

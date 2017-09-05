@@ -104,7 +104,7 @@ public class NaturalSelection {
         int countOfGenerations = 0;
         while (true) {
             countOfGenerations += 1;
-            if (countOfGenerations == 20) {
+            if (countOfGenerations == 10) {
                 Monkeys human = new Monkeys("Humanity");
                 human.doTheEvolution();
                 break;

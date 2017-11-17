@@ -4,7 +4,7 @@
 public class Monkeys {
     private String subspeciesName;
 
-    public Monkeys (String subspeciesName){
+    public Monkeys (String subspeciesName) {
         this.subspeciesName = subspeciesName;
     }
 
@@ -13,8 +13,7 @@ public class Monkeys {
         System.out.println("       (҂`_´)");
         System.out.println("       <,︻╦╤─ * * *");
         System.out.println("        /﹋\\ ");
-        System.out.println("К сожалению, чрезвычайно развившиеся обезьяны изобрели огнестрельное оружие, " +
-                "что позволило им полностью истребить ваш вид ради добычи ценных частей ваших тел.");
+        System.out.println("К сожалению, чрезвычайно развившиеся обезьяны изобрели огнестрельное оружие, что позволило им полностью истребить ваш вид ради добычи ценных частей ваших тел.");
     }
 }
 
